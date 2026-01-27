@@ -1,8 +1,9 @@
 package dio.padroes_projeto_spring.model;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public class ClientRepository extends CrudRepository<Cliente, Long> {
-
+@Repository
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
 
 }
