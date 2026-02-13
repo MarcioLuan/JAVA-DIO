@@ -1,0 +1,50 @@
+RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 13/02/2026
+Empresa: Abstergo Industries
+Responsável: Marcio Luan Ferreira Barros
+
+Introdução
+
+Este relatório apresenta o processo de implementação de serviços AWS na empresa Abstergo Industries. O objetivo do projeto foi selecionar 3 serviços AWS com a finalidade de promover redução imediata de custos operacionais, otimização de infraestrutura e melhor aproveitamento de recursos computacionais.
+
+Descrição do Projeto
+Etapa 1:
+
+Amazon EC2 Auto Scaling + Elastic Load Balancing
+
+Foco da ferramenta: Escalabilidade automática e otimização de uso de servidores
+
+Descrição de caso de uso: Ajustar automaticamente a quantidade de instâncias EC2 conforme demanda dos sistemas internos (ERP, controle laboratorial e portais médicos), evitando servidores ociosos e reduzindo custos com recursos subutilizados.
+
+Etapa 2:
+
+Amazon S3 Intelligent-Tiering
+
+Foco da ferramenta: Otimização automática de custos de armazenamento
+
+Descrição de caso de uso: Armazenamento de documentos regulatórios, laudos laboratoriais, backups e arquivos históricos com migração automática entre camadas de custo conforme padrão de acesso, reduzindo despesas com storage.
+
+Etapa 3:
+
+AWS Lambda
+
+Foco da ferramenta: Execução serverless sob demanda
+
+Descrição de caso de uso: Processamento de relatórios, validação de dados clínicos e rotinas automatizadas sem necessidade de servidores dedicados, com pagamento apenas por execução.
+
+Conclusão
+
+A implementação dos serviços Amazon EC2 Auto Scaling, Amazon S3 Intelligent-Tiering e AWS Lambda proporciona redução de custos com infraestrutura ociosa, armazenamento ineficiente e servidores dedicados para tarefas intermitentes. A empresa passa a operar com modelo escalável, elástico e baseado em consumo, aumentando eficiência operacional e previsibilidade financeira. Recomenda-se a continuidade da estratégia de otimização e monitoramento de custos com AWS Cost Explorer.
+
+Anexos
+
+Planilha comparativa de custos antes e depois da implementação
+
+Arquitetura proposta da solução
+
+Relatório de estimativa de economia mensal
+
+Assinatura do Responsável pelo Projeto:
+
+Marcio Luan Ferreira Barros
